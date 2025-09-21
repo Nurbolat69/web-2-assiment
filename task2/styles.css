@@ -1,0 +1,19 @@
+body { margin:0; font-family: Arial, sans-serif; background:#2b0b0b; color:#f8f8f8; }
+.t-header { background:#800000; color:#fff; padding:20px; text-align:center; }
+
+.navbar {
+  background:#a52a2a;
+  text-align:center;
+  padding:10px;
+}
+.navbar a { color:#fff; text-decoration:none; margin:0 6px; padding:8px 16px; border-radius:6px; }
+.navbar a:hover { background:#ff4d4d; }
+
+.t-container { display:flex; max-width:1000px; margin:20px auto; padding:0 12px; gap:20px; }
+.t-about { flex:1; background:#661111; padding:18px; border-radius:8px; }
+.t-about h2, .t-about h3 { color:#fff; }
+.t-portrait img { max-width:100%; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,.3); }
+.btn { display:inline-block; margin-top:10px; background:#a52a2a; color:#fff; padding:10px 16px; border-radius:6px; text-decoration:none; }
+.btn:hover { background:#ff4d4d; }
+
+.t-footer { background:#800000; text-align:center; padding:12px; margin-top:20px; color:#fff; }

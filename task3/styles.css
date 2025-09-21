@@ -1,0 +1,48 @@
+body { margin:0; font-family: Arial, sans-serif; background:#2b0b0b; color:#f8f8f8; }
+
+
+.header { background:#800000; color:#fff; text-align:center; padding:20px; }
+.subtitle { font-size:0.95rem; }
+
+
+.navbar {
+  background:#a52a2a;
+  text-align:center;
+  padding:10px;
+}
+.navbar a { color:#fff; text-decoration:none; margin:0 6px; padding:8px 16px; border-radius:6px; }
+.navbar a:hover { background:#ff4d4d; }
+
+
+h2 { margin-top:20px; color:#fff; text-align:center; }
+table.grades {
+  width:90%;
+  margin:0 auto 20px;
+  border-collapse:collapse;
+  background:#661111;
+  color:#fff;
+}
+table.grades th, table.grades td { border:1px solid #aa4444; padding:10px; text-align:center; }
+table.grades thead th { background:#a52a2a; }
+table.grades tbody tr:nth-child(even) { background:#772222; }
+table.grades .highlight-row { background:#ff4d4d; color:#fff; }
+
+
+.feedback {
+  width:60%;
+  margin:0 auto 40px;
+  background:#661111;
+  padding:18px;
+  border-radius:8px;
+}
+.feedback label { display:block; margin-top:10px; font-weight:bold; }
+.feedback input, .feedback select, .feedback textarea {
+  width:100%; margin-top:6px; padding:8px;
+  border:none; border-radius:6px;
+}
+.feedback .submit-btn {
+  margin-top:12px; padding:10px 16px;
+  border:none; border-radius:8px;
+  background:#a52a2a; color:#fff; cursor:pointer;
+}
+.feedback .submit-btn:hover { background:#ff4d4d; }
